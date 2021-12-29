@@ -2,18 +2,18 @@
 
 - 정의
 rc4 암호화는 매우 간단하게 소프트웨어로 구현할 수 있는 스트림 암호화 기법이다.
-40~128 bit (5~16 byte) 길이의 키를 이용해 0~255 까지 256개의 수의 순열을 만들고 이를 활용하여 랜덤에 가까운 방식으로 바이트 스트림을 암호화한다.
+40-128 bit (5-16 byte) 길이의 키를 이용해 0~255 까지 256개의 수의 순열을 만들고 이를 활용하여 랜덤에 가까운 방식으로 바이트 스트림을 암호화한다.
 - 사용 예시
 
-  1. 프로젝트내에 암호화할 파일을 생성한 후 암호화 진행
+1. 프로젝트내에 암호화할 파일을 생성한 후 암호화 진행
 
 <img src = "https://user-images.githubusercontent.com/81247213/147633658-4aa0598b-bfae-4ff2-a5ac-276088c799e6.png" width="250" height="100" />
 
-  2. key로 사용할 임의의 값 입력하면 key_streambyte와 암호화문이 나타난다.
+2. key로 사용할 임의의 값 입력하면 key_streambyte와 암호화문이 나타난다.
 <img src = "https://user-images.githubusercontent.com/81247213/147633658-4aa0598b-bfae-4ff2-a5ac-276088c799e6.png" width="250" height="100" />
 <img src = "https://user-images.githubusercontent.com/81247213/147633977-1af78df7-1d87-4c93-a58d-821f08aa0c56.png" width="250" height="100" />
 
-  3. 사용하였던 key값을 다시입력하면 복호화 된다.
+3. 사용하였던 key값을 다시입력하면 복호화 된다.
 <img src = "https://user-images.githubusercontent.com/81247213/147634045-969ae287-0765-4d1d-8fd9-27ff29ff8e02.png" width="250" height="100" />
 <img src = "https://user-images.githubusercontent.com/81247213/147634053-36bfc989-41ec-40aa-97fd-60e63e5d6345.png" width="250" height="100" />
   
